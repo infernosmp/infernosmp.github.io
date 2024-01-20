@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    display: grid;
+    place-items: start;
+}
+.glitchText{
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    color: #f5f5f5;
+text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px         #F90, 0px -20px 40px #C33;
+    transition-duration: 0.5s;
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    overflow: hidden;
+    margin-left: 10px;
+}
+.glitchText:hover{
+    color: black;
+}
